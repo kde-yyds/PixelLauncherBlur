@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/PixelLauncherBlur/app/src/main/java/me/kdeyyds/pixellauncherblur/MainHook.java",
+      "selection": {
+        "end": {
+          "column": 121,
+          "index": 3395,
+          "line": 73
+        },
+        "start": {
+          "column": 100,
+          "index": 3374,
+          "line": 73
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/PixelLauncherBlur/app/src/main/java/me/kdeyyds/pixellauncherblur/MainHook.java"
+}
