@@ -71,8 +71,9 @@ public class MainHook implements IXposedHookLoadPackage {
             // Try to find the class first before using it
             Class<?> launchDepthControllerClass = null;
             try {
-                launchDepthControllerClass = XposedHelpers.findClassIfExists("com.android.launcher3.LaunchDepthController", lpparam.classLoader);
+                launchDepthControllerClass = XposedHelpers.findClassIfExists("com.android.launcher3.QuickstepTransitionManager$LaunchDepthController", lpparam.classLoader);
             } catch (Exception e) {
+                XposedBridge.log("PixelLauncherBlur: Error finding LaunchDepthController: " + e.getMessage());
                 // Class doesn't exist, launchDepthControllerClass will be null
             }
 
